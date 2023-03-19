@@ -1,5 +1,7 @@
 # wordfinder
 
+invite with https://discord.com/api/oauth2/authorize?client_id=1086350121660325968&permissions=85056&scope=bot
+
 database.db stores frequency data
 
 main.py runs discord bot
