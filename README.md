@@ -38,4 +38,4 @@ commands:
 
         <word1> (<% of words weighted by frequency with given trigram are this word>), <word2> (<...>)...
 
-%reviewmiss - same as review with no field, but checks last missed prompt
+%reviewmiss/rm - same as review with no field, but checks last missed prompt
