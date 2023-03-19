@@ -2,4 +2,4 @@ PLACEHOLDER!
 
 real database uses sql with one table
 this table has two columns: word and frequency
-approx. 9M entries
+approx. 9M entries from https://www.kaggle.com/datasets/wheelercode/english-word-frequency-list?resource=download
