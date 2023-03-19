@@ -1,8 +1,11 @@
 # wordfinder
 
 database.db stores frequency data
+
 main.py runs discord bot
+
 Ret.py provides supporting classes
+
 sql1.py sets up database.db given the csv (with the column name line removed)
     db: https://www.kaggle.com/datasets/wheelercode/english-word-frequency-list?resource=download
 
