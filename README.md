@@ -7,6 +7,7 @@ sql1.py sets up database.db given the csv (with the column name line removed)
     db: https://www.kaggle.com/datasets/wheelercode/english-word-frequency-list?resource=download
 
 commands:
+
 %help - default help from discord.py
 
 %listen/li <mode> - toggles automatic review on miss
