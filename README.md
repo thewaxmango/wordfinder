@@ -28,11 +28,13 @@ commands:
 
 %numresponses/nr <count> - sets number of words given on review
 
-    <count=n> : 0<n<=10
+    <count=n> : n is int > 0
     
-%review/re/rv/r <trigram> - queries for data for trigram
+%review/re/rv/r <trigram> <count> - queries for data for trigram
 
     <trigram=str> : if field empty, reviews last prompt given, else <trigram> should be a three-letter string with no case restriction
+    
+    <count=n> : sets number of word examples given, n is int > 0
 
     response format - 
 
@@ -40,4 +42,4 @@ commands:
 
         <word1> (<% of words weighted by frequency with given trigram are this word>), <word2> (<...>)...
 
-%reviewmiss/rm - same as review with no field, but checks last missed prompt
+%reviewmiss/rm <count> - same as review with no trigram field, but checks last missed prompt
