@@ -1,4 +1,4 @@
-# wordfinder
+# wordfinder (a discord bot)
 
 supplements mudae's blacktea with example words!
 
